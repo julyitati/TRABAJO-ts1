@@ -1,0 +1,19 @@
+{
+  "name": "trabajo-ts1",
+  "version": "1.0.0",
+  "description": "Proyecto TypeScript básico",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "ts-node": "^10.9.1"
+  }
+}

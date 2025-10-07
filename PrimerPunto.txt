@@ -1,0 +1,13 @@
+1. Generalización simbólica
+En TypeScript, entendido dentro del paradigma estructurado, las reglas escritas del lenguaje se basan principalmente en la sintaxis heredada de JavaScript y en su sistema de tipos estáticos. Esto significa que un programa se construye a partir de funciones, estructuras de control (if, for, while, switch), variables declaradas con let o const, y bloques delimitados por llaves.
+ Además, TypeScript introduce anotaciones de tipo, inferencia de tipos y módulos como mecanismos formales para organizar y validar el código. En otras palabras, su generalización simbólica está compuesta por el conjunto de normas sintácticas y semánticas que permiten expresar algoritmos de manera clara, estructurada y con mayor seguridad que en JavaScript puro.
+________________________________________
+2. Creencias de los profesionales
+Entre la comunidad de desarrolladores, se sostiene que TypeScript ofrece varias ventajas frente a otros lenguajes o frente a JavaScript sin tipado. Las más destacadas son:
+●	Mayor robustez y seguridad, gracias al sistema de tipos estáticos que detecta errores antes de ejecutar.
+
+●	Mejor mantenibilidad en proyectos grandes, al hacer el código más legible y predecible.
+
+●	Compatibilidad total con JavaScript, lo que facilita la adopción progresiva.
+
+●	Mayor productividad, ya que los entornos de desarrollo pueden brindar autocompletado y verificación más inteligente.

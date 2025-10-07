@@ -7,14 +7,14 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
-    "target": "esnext",
-    "types": [],
-    // For nodejs:
+    "module": "commonjs",
+    "target": "es2020",
+    "esModuleInterop": true,
+    "types": ["node"],
     // "lib": ["esnext"],
     // "types": ["node"],
     // and npm install -D @types/node
-    "outDir": "./dist",        /* Directorio de salida para archivos JavaScript */
+    "outDir": "./dist",
     "rootDir": "./src",
 
     // Other Outputs

@@ -99,9 +99,10 @@ function mostrarTarea(t: Tarea): void {
 function agregarTarea(): void {
   console.log("\n--- Agregar Nueva Tarea ---");
   const titulo = prompt("Título: ") || "";
+  console.log("DEBUG título:", titulo);
   const descripcion = prompt("Descripción (opcional): ") || "";
   const dificultad = prompt("Dificultad (Fácil/Medio/Difícil): ") || "Fácil";
-  const vencimiento = prompt("Fecha de vencimiento (AAAA-MM-DD, opcional): ") || "";
+  const vencimiento = prompt("Fecha de vecimiento (AAAA-MM-DD, opcional): ") || "";
   console.log(`Estados válidos: ${ESTADOS_VALIDOS.join(" / ")}`);
   const estado = prompt("Estado inicial (default Pendiente): ") || "Pendiente";
 
